@@ -1,0 +1,17 @@
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.arrow:hover {
+  border-color: darkgrey;
+  cursor: pointer;
+}
+
+.arrow:active {
+  animation: clickAnimation 0.3s;
+}
