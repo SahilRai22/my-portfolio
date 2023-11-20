@@ -5,9 +5,6 @@ import './navbar.css';
 function Navbar() {
   return (
     <header>
-      <div class='title-container'>
-        <h1 class='title'>Sahil C Rai.</h1>
-      </div>
       <nav className='nav-container'>
         <ul>
           <li className='nav-item'>

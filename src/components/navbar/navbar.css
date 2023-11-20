@@ -1,14 +1,3 @@
-.title-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.title {
-  text-align: center;
-  font-size: 2em;
-}
-
 .nav-container {
   display: flex;
   align-items: center;
