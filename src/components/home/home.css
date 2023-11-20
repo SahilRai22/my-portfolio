@@ -1,0 +1,29 @@
+.home-container {
+  display: grid;
+  place-items: center;
+  height: 50vh;
+  font-size: 32px;
+}
+
+.name-heading {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.intro {
+  place-content: center;
+  text-align: center;
+  margin-top: 0%;
+  font-size: 24px;
+  color: #a2aaad;
+}
+
+.profile-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
