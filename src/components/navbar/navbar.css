@@ -3,9 +3,11 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-
   margin: 0 auto;
-  position: relative;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  z-index: 1000;
 }
 
 .nav-item {
@@ -31,4 +33,8 @@ li {
 
 li:hover {
   text-decoration: underline;
+}
+
+body {
+  margin-top: 60px;
 }
