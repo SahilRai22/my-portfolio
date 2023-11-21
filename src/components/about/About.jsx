@@ -1,5 +1,6 @@
 import React from 'react';
 import './about.css';
+import TimeLine from './Timeline';
 
 function About() {
   const description =
@@ -14,6 +15,7 @@ function About() {
           {' '}
           <h2 className='title'>About me</h2>
           <p className='paragraph-container '>{description}</p>
+          <TimeLine />
         </section>
       </div>
     </>
