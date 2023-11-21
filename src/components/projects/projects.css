@@ -1,0 +1,12 @@
+.project-container {
+  display: grid;
+
+  height: 100vh;
+  font-size: 22px;
+}
+
+.title {
+  margin-top: 5%;
+  margin-bottom: 0%;
+  margin-left: 15%;
+}
