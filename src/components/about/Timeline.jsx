@@ -35,10 +35,9 @@ function TimeLine() {
   return (
     <div
       style={{
-        width: '1200px',
-        height: '950px',
-        marginRight: '15%',
-        marginLeft: '15%',
+        marginRight: '25%',
+        marginLeft: '25%',
+        placeContent: 'center',
         marginTop: '5%',
       }}
     >
