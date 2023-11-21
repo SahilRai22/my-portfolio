@@ -43,7 +43,6 @@ function TimeLine() {
     >
       <Chrono
         items={timelineElements}
-        enableOutline
         mode='VERTICAL_ALTERNATING'
         scrollable={{ scrollbar: true }}
         theme={{
