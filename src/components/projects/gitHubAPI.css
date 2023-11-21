@@ -1,0 +1,46 @@
+/* gitHubAPI.css */
+
+.repo-container {
+  max-width: 800px;
+  margin: 20px auto;
+  overflow-y: auto;
+  height: 700px; /* Set a fixed height or adjust as needed */
+}
+
+.repo-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.repo-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.repo-name {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.language {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.visibility {
+  font-size: 0.9rem;
+  color: #777;
+}
