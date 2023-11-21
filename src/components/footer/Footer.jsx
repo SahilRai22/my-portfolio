@@ -1,28 +1,32 @@
-import React from "react";
+import React from 'react';
+import './footer.css';
 
-import "./footer.css";
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 function Footer() {
+  const message = 'Thank you for stopping by, you can connect with me on:';
+
   return (
-    <section className="footer">
-      <hr className="footer-seperator" />
-
-      <section className="footer-info">
-        <section className="footer-info-center">
-          <section className="footer-info__name">
-            Sahil C Rai <br /> Software Engineer
-          </section>
-        </section>
-
-        <section className="footer-info-center">
-          <section className="footer-info__email">email.com</section>
-        </section>
-
-        <section className="footer-info-right">
-          <section className="footer-info__number">Socials</section>
-        </section>
-      </section>
-    </section>
+    <footer className='footer'>
+      <p>{message}</p>
+      <div className='social-icons'>
+        <a
+          href='https://github.com/SahilRai22'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <FaGithub className='icon' />
+        </a>
+        <a
+          href='https://www.linkedin.com/in/sahil-rai-bba761179/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <FaLinkedin className='icon' />
+        </a>
+      </div>
+      <p>&copy;2023 Sahil C Rai</p>
+    </footer>
   );
 }
 
