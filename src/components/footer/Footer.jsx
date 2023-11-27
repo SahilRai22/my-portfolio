@@ -4,7 +4,7 @@ import './footer.css';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 function Footer() {
-  const message = 'Thank you for stopping by, you can connect with me on:';
+  const message = 'Thank you for stopping by you can connect with me on.';
 
   return (
     <footer className='footer'>
