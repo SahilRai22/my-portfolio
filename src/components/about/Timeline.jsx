@@ -31,8 +31,8 @@ function TimeLine() {
           src={uon}
           alt="Bally's logo"
           style={{
-            width: '220px',
-            height: '200px',
+            width: '200px',
+            height: '110px',
           }}
         ></img>
       ),
@@ -57,8 +57,8 @@ function TimeLine() {
   return (
     <div
       style={{
-        marginRight: '30%',
-        marginLeft: '30%',
+        marginRight: '25%',
+        marginLeft: '25%',
         placeContent: 'center',
         marginTop: '5%',
       }}
