@@ -1,0 +1,43 @@
+.job-list {
+  display: grid;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: flex-start;
+  text-decoration: none;
+}
+
+.job-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #717171;
+  margin-top: 4px;
+}
+
+.year {
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align: right;
+}
+
+.job-name-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.job-name {
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}

@@ -1,13 +1,61 @@
 import React from 'react';
-import GitHubAPI from './GitHubAPI';
 import './projects.css';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import BreakoutImage from './Breakout.png';
+import ReRouteImage from './ReRoute.png';
+import ChatBotImage from './ChatBot.png';
 
 function Projects() {
+  const desc =
+    'Some of the past projects I have worked and you can visit my github page to explore more of my work';
+  const apps = [
+    {
+      name: 'Breakout',
+      description:
+        'Brick Breaker game made in Java practising Object Oriented principles',
+      image: BreakoutImage,
+    },
+    {
+      name: 'ReRoute',
+      description:
+        'graph traversal application that extends pathfinding algorithms to route train stations across the UK',
+      image: ReRouteImage,
+    },
+
+    {
+      name: 'ChatBot',
+      description:
+        'A general-purpose chat bot built to serve multiple functions: stores and manages usernames, prompts day to day commands',
+      image: ChatBotImage,
+    },
+
+    // Add more app entries as needed
+  ];
+
   return (
     <div>
       <section className='project-container ' id='projects'>
-        <h2 className='project-title'>Projects</h2>
-        <GitHubAPI />
+        <p className='project-title'>Projects</p>
+        <p className='paragraph-container '>{desc}</p>
+
+        <div className='app-container'>
+          {apps.map((app, index) => (
+            <Card key={index} sx={{ maxWidth: 500, margin: '16px' }}>
+              <CardMedia sx={{ height: 220 }} image={app.image} />
+              <CardContent>
+                <Typography gutterBottom variant='h7' component='div'>
+                  {app.name}
+                </Typography>
+                <Typography color='text.secondary' fontSize={'12px'}>
+                  {app.description}
+                </Typography>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
       </section>
     </div>
   );

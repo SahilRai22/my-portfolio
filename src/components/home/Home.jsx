@@ -9,10 +9,12 @@ function Home() {
   return (
     <div>
       <section className='home-container' id='home'>
-        <div>
-          <img class='profile-pic' src={sahil_bw} alt='Profile headshot' />{' '}
-          <h2 className='name-heading'>{NameHeading}</h2>
-          <p className='intro'>{intro}</p>{' '}
+        <div className='profile-container'>
+          <img className='profile-pic' src={sahil_bw} alt='Profile headshot' />
+          <div className='text-container'>
+            <p className='name-heading'>{NameHeading}</p>
+            <p className='intro'>{intro}</p>
+          </div>
         </div>
       </section>
     </div>
