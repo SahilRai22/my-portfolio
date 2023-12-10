@@ -21,7 +21,7 @@ function Projects() {
     {
       name: 'ReRoute',
       description:
-        'graph traversal application that extends pathfinding algorithms to route train stations across the UK.',
+        'Graph traversal application that extends pathfinding algorithms to route train stations across the UK.',
       image: ReRouteImage,
     },
 
