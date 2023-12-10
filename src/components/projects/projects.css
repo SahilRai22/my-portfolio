@@ -1,12 +1,22 @@
 .project-container {
   display: grid;
 
-  height: 140vh;
-  font-size: 22px;
+  margin-left: 35%;
+  margin-right: 35%;
 }
 
 .project-title {
-  margin-top: 25%;
-  margin-bottom: 0%;
-  margin-left: 25%;
+  margin-top: 50px;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.app-container {
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 4px;
 }

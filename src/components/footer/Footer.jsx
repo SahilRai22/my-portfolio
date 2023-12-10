@@ -8,7 +8,7 @@ function Footer() {
 
   return (
     <footer className='footer'>
-      <p>{message}</p>
+      <p className='message'>{message}</p>
       <div className='social-icons'>
         <a
           href='https://github.com/SahilRai22'
@@ -25,7 +25,7 @@ function Footer() {
           <FaLinkedin className='icon' />
         </a>
       </div>
-      <p>&copy;2023 Sahil C Rai</p>
+      <p className='message'>&copy; 2023 Sahil C Rai</p>
     </footer>
   );
 }
