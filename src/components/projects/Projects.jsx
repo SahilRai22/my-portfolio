@@ -10,29 +10,27 @@ import ChatBotImage from './ChatBot.png';
 
 function Projects() {
   const desc =
-    'Some of the past projects I have worked and you can visit my github page to explore more of my work';
+    'More current and past projects can also be found on my github page.';
   const apps = [
     {
       name: 'Breakout',
       description:
-        'Brick Breaker game made in Java practising Object Oriented principles',
+        'Brick Breaker game made in Java practising Object Oriented principles.',
       image: BreakoutImage,
     },
     {
       name: 'ReRoute',
       description:
-        'graph traversal application that extends pathfinding algorithms to route train stations across the UK',
+        'graph traversal application that extends pathfinding algorithms to route train stations across the UK.',
       image: ReRouteImage,
     },
 
     {
       name: 'ChatBot',
       description:
-        'A general-purpose chat bot built to serve multiple functions: stores and manages usernames, prompts day to day commands',
+        'A general-purpose chat bot built to serve multiple functions: stores and manages usernames, prompts day to day commands.',
       image: ChatBotImage,
     },
-
-    // Add more app entries as needed
   ];
 
   return (
