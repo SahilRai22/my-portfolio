@@ -4,9 +4,9 @@ import './about.css';
 import JobList from './JobList';
 function About() {
   const about =
-    'Hi I am Sahil, currently working on backend services using Rust.';
+    'Hi I am Sahil currently working as a software engineer on backend services using Rust.';
   const hobbies =
-    'Alognside tech I am also a sporting enthusiast particularly in football, basketball, and bouldering.';
+    'Alongside tech I am also a sports enthusiast particularly in football, basketball, and bouldering.';
 
   // let icons = [<img src alt='UoN logo'></img>];
 
