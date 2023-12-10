@@ -4,9 +4,7 @@ import './about.css';
 import JobList from './JobList';
 function About() {
   const about =
-    'Hi I am Sahil, currently working as a software engineer on backend services using Rust.';
-  const hobbies =
-    'I am also a sports enthusiast particularly in football, basketball, and bouldering.';
+    'Hi I am Sahil, currently working as a software engineer on backend services using Rust. I am also a sports enthusiast particularly in football, basketball, and bouldering.';
 
   // let icons = [<img src alt='UoN logo'></img>];
 
@@ -34,7 +32,6 @@ function About() {
       <section className='about-container ' id='about'>
         <p className='title'>About</p>
         <p className='paragraph-container '>{about}</p>
-        <p className='paragraph-container '>{hobbies}</p>
         <JobList jobs={jobs} />
       </section>
     </>
