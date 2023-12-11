@@ -6,12 +6,10 @@ function About() {
   const about =
     'Hi I am Sahil, currently working as a software engineer on backend services using Rust. I am also a sports enthusiast particularly in football, basketball, and bouldering.';
 
-  // let icons = [<img src alt='UoN logo'></img>];
-
   const jobs = [
     {
       name: 'Graduate Software Engineer',
-      location: 'Ballys Interactive, London UK',
+      location: "Bally's Interactive, London UK",
 
       year: 2023 + ' - present',
     },
